@@ -108,12 +108,12 @@ textarea {
     color: #fcf1d4;
 }
 
-footer {
+#footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: fixed;
     background-color: #574743;
     color: #fcf1d4;
