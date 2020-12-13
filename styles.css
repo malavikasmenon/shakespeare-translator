@@ -13,22 +13,27 @@ body {
     display: block;
     align-items: center;
     text-align: center;
+    width: 100%;
 }
 
 #nav {
     border: 1px solid #574743;
-    margin: 0;
+    margin: 0 auto;
     background-color: #574743;
     color: #fcf1d4;
     padding-bottom: 1em;
     box-shadow: 0 10px 10px 0px #574743;
-    width: 100%;
+    width: inherit;
+    text-align: center;
+    display: block;
 }
 
 h1 {
     margin-bottom: 0;
     background-color: #574743;
     color: #fcf1d4;
+    width: 100%;
+    text-align: center;
 }
 
 img {
@@ -36,22 +41,18 @@ img {
 }
 
 #english-box {
-    padding: 1em;
-    width: 500px;
     display: block;
-    margin: auto;
-    border-radius: 10px;
+    margin: 0 auto;
     color: #574743;
+    width: 320px;
 }
 
 #minion-box {
-    padding: 1em;
-    width: 500px;
+    width: 300px;
     display: block;
     margin: auto;
-    border-radius: 10px;
     color: #574743;
-    ;
+    margin-top: 30px;
 }
 
 #minionese {
@@ -59,7 +60,7 @@ img {
     color: #574743;
     border-radius: 10px;
     width: 300px;
-    padding: 1em;
+    padding-top: 1em;
     height: 10vh;
     display: block;
     margin: auto;
@@ -74,9 +75,11 @@ h4 {
 textarea {
     width: 300px;
     height: 10vh;
-    padding: 1em;
     border: 3px #574743;
     color: #574743;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1em;
     border-radius: 10px;
     border-style: ridge;
     background-color: #fcf1d4;
@@ -115,4 +118,8 @@ footer {
     background-color: #574743;
     color: #fcf1d4;
     box-shadow: 10px 10px 10px 10px #574743;
+}
+
+p {
+    margin: 10px;
 }
