@@ -1,11 +1,19 @@
+html {
+    background: url(assets/new.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #e8cfa8;
+}
+
 body {
-    background-image: url(./assets/new.jpg);
+    /*background-image: url(./assets/new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #e8cfa8;
+    background-attachment: fixed; */
 }
 
 body {
